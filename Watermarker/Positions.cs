@@ -16,7 +16,7 @@ namespace Watermarker
             int y = 2;
             return new int[] { x, y };
         }
-        public static int[] LeftTop()//For images
+        public static int[] LeftTop() //For images
         {
             int x = 10 ;
             int y = 10;
@@ -41,7 +41,7 @@ namespace Watermarker
             return new int[] { x, y };
         }
 
-        public static int[] LeftBottom(ImageModel baseImg, ImageModel wmImg)//For images
+        public static int[] LeftBottom(ImageModel baseImg, ImageModel wmImg) //For images
         {
             int x = 10;
             int y = baseImg.Height - wmImg.Height - 10;

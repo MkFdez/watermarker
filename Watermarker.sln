@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterMarker", "PhotoUtilities\WaterMarker.csproj", "{7879FD41-6BFA-4E1D-A262-CB1E50DEEA09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterMarker", "Watermarker\WaterMarker.csproj", "{7879FD41-6BFA-4E1D-A262-CB1E50DEEA09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

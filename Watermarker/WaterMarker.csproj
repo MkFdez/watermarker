@@ -7,8 +7,8 @@
     <ProjectGuid>{7879FD41-6BFA-4E1D-A262-CB1E50DEEA09}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PhotoUtilities</RootNamespace>
-    <AssemblyName>PhotoUtilities</AssemblyName>
+    <RootNamespace>Watermarker</RootNamespace>
+    <AssemblyName>Watermarker</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,12 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetFontSize.cs" />
     <Compile Include="Models\FontModel.cs" />
     <Compile Include="Models\ImageModel.cs" />
     <Compile Include="Positions.cs" />
     <Compile Include="LocationLogic.cs" />
-    <Compile Include="Logic.cs" />
+    <Compile Include="ImageUtilities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WatermarkStyle.cs" />
   </ItemGroup>

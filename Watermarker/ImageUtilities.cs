@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 
 namespace Watermarker
 {
-    public class Logic
+    public static class ImageUtilities
     {
         /// <summary>
         /// Put the selected watermark covering the entire image
